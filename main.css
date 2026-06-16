@@ -1,0 +1,39 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    background-color: black ;
+}
+.hero {
+    background: linear-gradient(
+        135deg,
+        #04080a,
+        #180b7d,
+        #000000
+    );
+    color: white;
+}
+
+.logo {
+    letter-spacing: 2px;
+}
+
+.skill {
+    background-color: ();
+    padding: 10px 20px;
+    border-radius: 999px;
+    font-weight: bold;
+    box-shadow: 0 3px 10px rgba(0,0,0,2.1);
+}
+
+.project-card {
+    background-color: white;
+    padding: 24px;
+    border-radius: 16px;
+    transition: 0.3s;
+    box-shadow: 0 5px 15px rgba(0,0,0,2.1);
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}

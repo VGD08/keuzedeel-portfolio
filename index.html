@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - VGD</title>
+
+    
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    
+    <link rel="stylesheet" href="main.css">
+</head>
+<body class="bg-slate-100">
+
+    
+    <nav class="bg-white shadow-md">
+        <div class="container mx-auto flex justify-between items-center p-5">
+            <h1 class="text-2xl font-bold logo">Mijn Portfolio</h1>
+
+            <ul class="flex gap-6">
+                <li><a href="#about">Over mij</a></li>
+                <li><a href="#projects">Projecten</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    
+    <header class="hero min-h-[80vh] flex items-center justify-center text-center">
+        <div>
+            <h2 class="text-5xl font-bold mb-4">
+                Hallo, ik ben Vinay (DJ_VGD)
+            </h2>
+
+            <p class="text-xl text-white-700 mb-6">
+                upcomming  DJ
+            </p>
+
+            <a href="#projects"
+               class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+               check mijn werk
+            </a>
+        </div>
+    </header>
+
+    
+    <section id="about" class="container mx-auto py-20 px-5">
+        <h2 class="text-3xl font-bold mb-6">Over mij</h2>
+
+        <p class="text-lg">
+            ik ben een upcomming (allround) DJ, en ik ben probbr mijn connecties uit te breiden.
+        </p>
+    </section>
+
+    
+    <section class="container mx-auto py-10 px-5">
+        <h2 class="text-3xl font-bold mb-6">allround genres die ik beheer</h2>
+
+        <div class="flex flex-wrap gap-4">
+            <span class="skill">Afro</span>
+            <span class="skill">Urban</span>
+            <span class="skill">House</span>
+            <span class="skill">Amapiano</span>
+            <span class="skill">R&B</span>
+        </div>
+    </section>
+
+    <!-- Projecten -->
+    <section id="projects" class="container mx-auto py-20 px-5">
+        <h2 class="text-3xl font-bold mb-8">Projecten</h2>
+
+        <div class="grid md:grid-cols-3 gap-6">
+
+            <div class="project-card">
+                <h3 class="text-xl font-bold mb-2">Portfolio Website</h3>
+                <p>Persoonlijke website gemaakt met HTML en Tailwind.</p>
+            </div>
+
+            <div class="project-card">
+                <h3 class="text-xl font-bold mb-2">Webshop</h3>
+                <p>Responsieve webshop met moderne UI.</p>
+            </div>
+
+            <div class="project-card">
+                <h3 class="text-xl font-bold mb-2">Dashboard</h3>
+                <p>Dashboard met statistieken en grafieken.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="container mx-auto py-20 px-5">
+        <h2 class="text-3xl font-bold mb-6">Contact</h2>
+
+        <form class="space-y-4 max-w-xl">
+            <input
+                type="text"
+                placeholder="Naam"
+                class="w-full p-3 border rounded-lg"
+            >
+
+            <input
+                type="email"
+                placeholder="E-mail"
+                class="w-full p-3 border rounded-lg"
+            >
+
+            <textarea
+                rows="5"
+                placeholder="Bericht"
+                class="w-full p-3 border rounded-lg"
+            ></textarea>
+
+            <button
+                class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700">
+                Versturen
+            </button>
+        </form>
+    </section>
+
+    <footer class="bg-slate-900 text-white text-center p-5">
+        © 2026 Vinay (DJ_VGD). Alle rechten voorbehouden
+    </footer>
+
+</body>
+</html>
